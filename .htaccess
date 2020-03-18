@@ -1,5 +1,4 @@
-RewriteEngine On
-RewriteBase /y/directory/
+RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule (.*) ./ [L]
+RewriteRule . /index.html [L]
