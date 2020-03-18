@@ -2,4 +2,4 @@ RewriteEngine On
 RewriteBase /y/directory/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule (.*) ./ [QSA,L]
+RewriteRule (.*) ./ [L]
